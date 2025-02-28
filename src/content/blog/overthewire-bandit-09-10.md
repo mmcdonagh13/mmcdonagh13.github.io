@@ -21,7 +21,7 @@ The password for the next level is stored in the file `data.txt` in one of the f
 
 ## Walkthrough
 
-Login to the server using the password obtained from the previous level [Bandit level 8 -> 9](post/overthewire-bandit-9).  
+Login to the server using the password obtained from the previous level [Bandit level 8 -> 9](/posts/overthewire-bandit-9).  
 
 username: `bandit9`  
 
