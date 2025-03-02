@@ -11,13 +11,15 @@ tags:
   - thm-easy
   - git
 ogImage: ""
-description: Solution for TryHackMe room Git Happens.
+description: Boss wanted me to create a prototype, so here it is! We even used something called "version control" that made deploying this really easy!.
 ---
 
 ## Description
 
 TryHackMe Room Link: [Git Happens](https://tryhackme.com/room/githappens)  
 Created by: [hydragyrum](https://tryhackme.com/r/p/hydragyrum)
+
+Room Description: Boss wanted me to create a prototype, so here it is! We even used something called "version control" that made deploying this really easy!.
 
 This room only has a single task, find the flag.  
 
@@ -57,12 +59,12 @@ Lets clone the GitTools repository to our local machine
 
 Now that we have the tools we can download the `.git` directory.  
 
-![](@assets/images/tryhackme/git_happens/05-gitdump.png)
+![gitdump output](@assets/images/tryhackme/git_happens/05-gitdump.png)
 
 Now we can go into the newly created git folder and see what commits were made on this repository.
-![](@assets/images/tryhackme/git_happens/06-git_log.png)
+![git log output](@assets/images/tryhackme/git_happens/06-git_log.png)
 
-Looking at the messages for the commits we can see that the site was made more secure with each commit applied. 
+Looking at the messages for the commits we can see that the site was made more secure with each commit applied.  
 So we want to be looking at the early commits before any security was applied.
 
 We need to find a password so checking commits before any security was implemented is the best option.  
@@ -73,12 +75,12 @@ There are 2 commits availables
 
 We use the checkout command to revert the repository back to an earlier commit.
 
-![](@assets/images/tryhackme/git_happens/07-git_checkout.png)
+![git checkout](@assets/images/tryhackme/git_happens/07-git_checkout.png)
 
 Once the checkout is completed we now have 2 files and 1 directory.  
 Let's check what is in `index.html`.  
 Scrolling through the html file we can see a `login()` at the end of the file and it contains the username and password in plaintext.
 
-![](@assets/images/tryhackme/git_happens/08-index_password.png)
+![image of password](@assets/images/tryhackme/git_happens/08-index_password.png)
 
 Entering the password on tryhackme will complete the room.
