@@ -1,5 +1,5 @@
 {
-  "name": "astro-paper",
+  "name": "stale-singularity",
   "version": "4.8.0",
   "private": false,
   "scripts": {
@@ -18,11 +18,13 @@
     "@astrojs/rss": "^4.0.11",
     "@resvg/resvg-js": "^2.6.2",
     "astro": "^5.2.5",
+    "astro-paper": "file:",
     "fuse.js": "^7.1.0",
     "lodash.kebabcase": "^4.1.1",
     "remark-collapse": "^0.1.2",
     "remark-toc": "^9.0.0",
     "satori": "^0.12.1",
+    "stale-singularity": "file:",
     "tailwindcss": "^3.4.11",
     "typescript": "^5.7.3"
   },
