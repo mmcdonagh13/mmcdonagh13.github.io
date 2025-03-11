@@ -1,7 +1,7 @@
 ---
 title: OverTheWire Natas Level 0
 author: Michael McDonagh
-pubDatetime: 2025-03-02T15:30:00Z
+pubDatetime: 2025-03-02T15:20:00Z
 slug: overthewire-natas-0
 featured: false
 draft: false

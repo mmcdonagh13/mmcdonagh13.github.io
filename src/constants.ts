@@ -10,31 +10,31 @@ import { SITE } from "@/config";
 
 export const LOCALE = {
   lang: "en", // html lang code. Set this empty and default will be "en"
-  langTag: ["en-EN"], // BCP 47 Language Tags. Set this empty [] to use the environment default
+  langTag: ["en-IE"], // BCP 47 Language Tags. Set this empty [] to use the environment default
 } as const;
 
 export const SOCIALS = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/mmcdonagh13/mmcdonagh13.github.io",
     linkTitle: ` ${SITE.title} on Github`,
     icon: IconGitHub,
   },
   {
     name: "X",
-    href: "https://x.com/username",
+    href: "https://x.com/mmacdonnacha",
     linkTitle: `${SITE.title} on X`,
     icon: IconBrandX,
   },
-  {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/username/",
-    linkTitle: `${SITE.title} on LinkedIn`,
-    icon: IconLinkedin,
-  },
+  // {
+  //   name: "LinkedIn",
+  //   href: "https://www.linkedin.com/in/username/",
+  //   linkTitle: `${SITE.title} on LinkedIn`,
+  //   icon: IconLinkedin,
+  // },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:michael.mcdonagh@outlook.ie",
     linkTitle: `Send an email to ${SITE.title}`,
     icon: IconMail,
   },
