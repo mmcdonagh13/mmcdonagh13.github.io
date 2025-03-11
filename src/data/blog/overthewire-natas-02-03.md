@@ -28,7 +28,7 @@ Use the username `natas3` and the password obtained from the previous challenge.
 
 The home page has a message stating nothing on the page.
 
-![Natas 03 home page](@assets/images/overthewire/natas/natas03_home_page.png)
+![Natas 03 home page](@/assets/images/overthewire/natas/natas03_home_page.png)
 
 Next we check the source code `Ctrl+U`
 
@@ -62,13 +62,13 @@ No more information leaks!! Not even Google will find it this time...
 
 The way to stop Google from indexing a site is to use a `robots.txt` file. The file is used to stop web crawlers from visiting the whole site or specific folders.
 
-![Natas 03 Robots.txt](@assets/images/overthewire/natas/natas03_robots_txt.png)
+![Natas 03 Robots.txt](@/assets/images/overthewire/natas/natas03_robots_txt.png)
 
 We can see from the `robots.txt` that there is another directory to look into `/s3cr3t/`.
 
 The `/s3cr3t/` directory contains a single document.
 
-![Natas 03 secret link](@assets/images/overthewire/natas/natas03_s3cr3t.png)
+![Natas 03 secret link](@/assets/images/overthewire/natas/natas03_s3cr3t.png)
 
 Reading `users.txt` will give us the password for the next challenge.
 

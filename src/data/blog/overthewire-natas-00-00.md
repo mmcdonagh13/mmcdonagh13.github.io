@@ -25,11 +25,11 @@ Solution for the Overthewire.org [Natas level 0](https://overthewire.org/wargame
 
 Visit the url `http://natas0.natas.labs.overthewire.org` in the browser and we get a prompt for login.
 
-![login page](@assets/images/overthewire/natas/natas00_login.png)
+![login page](@/assets/images/overthewire/natas/natas00_login.png)
 
 Use the username `natas0` and password `natas0` to login and begin the challenge.
 
-![home page](@assets/images/overthewire/natas/natas00_home_page.png)
+![home page](@/assets/images/overthewire/natas/natas00_home_page.png)
 
 Since there is nothing to see on the site the next place to look is in the source code.
 

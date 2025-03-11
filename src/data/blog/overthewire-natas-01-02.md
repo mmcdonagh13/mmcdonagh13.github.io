@@ -28,7 +28,7 @@ Use the username `natas2` and the password obtained from the previous challenge.
 
 The home page has a message stating nothing on the page.
 
-![](@assets/images/overthewire/natas/natas02_home_page.png)
+![](@/assets/images/overthewire/natas/natas02_home_page.png)
 
 Checking the source code with `Ctrl+U` we find an image tag for a file `files/pixel.png`
 
@@ -55,8 +55,8 @@ There is nothing on this page
 
 When we visit the `files` directory we find more items to investigate.
 
-![](@assets/images/overthewire/natas/natas02_files_directory.png)
+![](@/assets/images/overthewire/natas/natas02_files_directory.png)
 
 The password for natas3 is in the `users.txt` file.
 
-![](@assets/images/overthewire/natas/natas02_users_txt.png)
+![](@/assets/images/overthewire/natas/natas02_users_txt.png)

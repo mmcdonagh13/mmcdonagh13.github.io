@@ -31,15 +31,15 @@ Use the username `natas7` and the password obtained from the previous challenge.
 
 Once logged in we can see an a simple home page with 2 links.
 
-![natas 7 index](@assets/images/overthewire/natas/natas07_index.png)
+![natas 7 index](@/assets/images/overthewire/natas/natas07_index.png)
 
 Clicking on `Home` shows us the same page but with extra text and the url being different.
 
-![natas7 home](@assets/images/overthewire/natas/natas07_home.png)
+![natas7 home](@/assets/images/overthewire/natas/natas07_home.png)
 
 And click on `About` shows gives us a very similar page to `Home`.
 
-![natas7 about](@assets/images/overthewire/natas/natas07_about.png)
+![natas7 about](@/assets/images/overthewire/natas/natas07_about.png)
 
 When we check the source code of any of the three pages we get essentially the same code.
 
@@ -86,11 +86,11 @@ By using this can take advantage of it by using a technique call `Local File Inc
 
 We can test this by entering a file path that exists on all linux servers, the `/etc/passwd` file.
 
-![natas7 lfi test](@assets/images/overthewire/natas/natas07_lfi_passwd.png)
+![natas7 lfi test](@/assets/images/overthewire/natas/natas07_lfi_passwd.png)
 
 The local file inclusion succeeded so now we can use the file path given to us in the source code of the webpages to obtain the password.
 
-![natas7 solution](@assets/images/overthewire/natas/natas07_password.png)
+![natas7 solution](@/assets/images/overthewire/natas/natas07_password.png)
 
 Using the url of `http://natas7.natas.labs.overthewire.org/index.php?page=/etc/natas_webpass/natas8` we get the password.
 

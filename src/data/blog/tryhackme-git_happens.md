@@ -33,7 +33,7 @@ Find the Super Secret Password
 
 We begin this challenge room by running a nmap scan to see what ports are open.
 
-![nmap results](@assets/images/tryhackme/git_happens/01-nmap.png)
+![nmap results](@/assets/images/tryhackme/git_happens/01-nmap.png)
 
 From the nmap scan we can see 1 port open.  
 Port 80 http  
@@ -41,28 +41,28 @@ Port 80 http
 The nmap scan also informs us that there is a `.git` directory on the website.
 
 Checking the website only shows a login screen
-![home page](@assets/images/tryhackme/git_happens/02-home_page.png)
+![home page](@/assets/images/tryhackme/git_happens/02-home_page.png)
 
 When we test logging in with  username `admin` and password `admin`  nothing appears to happen.  
 There is no error message.
 
 The nmap scan lists a `.git` directory lets check that now.
 
-![.git directory](@assets/images/tryhackme/git_happens/03-dot_git.png)
+![.git directory](@/assets/images/tryhackme/git_happens/03-dot_git.png)
 
 We can see the folder structure of a git repository.  
 We can check each folder and file individually but it is better to download the git repo and check it locally with git.
 
 To download the `.git` directory we can use [GitTools](https://github.com/internetwache/GitTools).  
 Lets clone the GitTools repository to our local machine
-![clone gittools repo](@assets/images/tryhackme/git_happens/04-clone_gittools.png)
+![clone gittools repo](@/assets/images/tryhackme/git_happens/04-clone_gittools.png)
 
 Now that we have the tools we can download the `.git` directory.  
 
-![gitdump output](@assets/images/tryhackme/git_happens/05-gitdump.png)
+![gitdump output](@/assets/images/tryhackme/git_happens/05-gitdump.png)
 
 Now we can go into the newly created git folder and see what commits were made on this repository.
-![git log output](@assets/images/tryhackme/git_happens/06-git_log.png)
+![git log output](@/assets/images/tryhackme/git_happens/06-git_log.png)
 
 Looking at the messages for the commits we can see that the site was made more secure with each commit applied.  
 So we want to be looking at the early commits before any security was applied.
@@ -75,12 +75,12 @@ There are 2 commits availables
 
 We use the checkout command to revert the repository back to an earlier commit.
 
-![git checkout](@assets/images/tryhackme/git_happens/07-git_checkout.png)
+![git checkout](@/assets/images/tryhackme/git_happens/07-git_checkout.png)
 
 Once the checkout is completed we now have 2 files and 1 directory.  
 Let's check what is in `index.html`.  
 Scrolling through the html file we can see a `login()` at the end of the file and it contains the username and password in plaintext.
 
-![image of password](@assets/images/tryhackme/git_happens/08-index_password.png)
+![image of password](@/assets/images/tryhackme/git_happens/08-index_password.png)
 
 Entering the password on tryhackme will complete the room.

@@ -31,11 +31,11 @@ Use the username `natas6` and the password obtained from the previous challenge.
 
 Once logged in we can see an input box asking for a secret and there is a link to view the source code.
 
-![natas6 home page](@assets/images/overthewire/natas/natas06_home.png)
+![natas6 home page](@/assets/images/overthewire/natas/natas06_home.png)
 
 Entering the incorrect secret gives us a `wrong secret` message.
 
-![natas6 wrong secret](@assets/images/overthewire/natas/natas06_wrong_secret.png)
+![natas6 wrong secret](@/assets/images/overthewire/natas/natas06_wrong_secret.png)
 
 Next let's check the source code link.
 
@@ -108,6 +108,6 @@ $secret = "FOEIUWGHFEEUHOFUOIU";
 
 The file contained the value of the secret. Entering the secret in the input box will give us the password for natas7.
 
-![natas6 password](@assets/images/overthewire/natas/natas06_password.png)
+![natas6 password](@/assets/images/overthewire/natas/natas06_password.png)
 
 The password for natas7 is `7z3hEE**************************`

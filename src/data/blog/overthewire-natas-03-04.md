@@ -31,7 +31,7 @@ Use the username `natas4` and the password obtained from the previous challenge.
 
 After logging in we get a message saying "Access disallowed".
 
-![natas04 home page](@assets/images/overthewire/natas/natas04_home_page.png)
+![natas04 home page](@/assets/images/overthewire/natas/natas04_home_page.png)
 
 The message further goes on to say that authorized users need to come from "<http://natas5.natas.labs.overthewire.org>"
 
