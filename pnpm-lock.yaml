@@ -23,6 +23,9 @@ importers:
       astro:
         specifier: ^5.4.2
         version: 5.4.2(jiti@2.4.2)(lightningcss@1.29.1)(rollup@4.34.7)(typescript@5.8.2)(yaml@2.7.0)
+      astro-paper:
+        specifier: 'file:'
+        version: file:(jiti@2.4.2)(lightningcss@1.29.1)(rollup@4.34.7)(typescript@5.8.2)(vite@6.2.1(jiti@2.4.2)(lightningcss@1.29.1)(yaml@2.7.0))(yaml@2.7.0)
       lodash.kebabcase:
         specifier: ^4.1.1
         version: 4.1.1
@@ -1012,6 +1015,9 @@ packages:
   astro-eslint-parser@1.2.1:
     resolution: {integrity: sha512-3oqANMjrvJ+IE5pwlUWsH/4UztmYf/GTL0HPUkWnYBNAHiGVGrOh2EbegxS5niAwlO0w9dRYk0CkCPlJcu8c3Q==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  'astro-paper@file:':
+    resolution: {directory: '', type: directory}
 
   astro@5.4.2:
     resolution: {integrity: sha512-9Z3fAniIRJaK/o43OroZA1wHUIU+qHiOR9ovlVT/2XQaN25QRXScIsKWlFp0G/zrx5OuuoJ+QnaoHHW061u26A==}
@@ -3596,6 +3602,54 @@ snapshots:
       semver: 7.7.1
     transitivePeerDependencies:
       - supports-color
+
+  astro-paper@file:(jiti@2.4.2)(lightningcss@1.29.1)(rollup@4.34.7)(typescript@5.8.2)(vite@6.2.1(jiti@2.4.2)(lightningcss@1.29.1)(yaml@2.7.0))(yaml@2.7.0):
+    dependencies:
+      '@astrojs/rss': 4.0.11
+      '@astrojs/sitemap': 3.2.1
+      '@resvg/resvg-js': 2.6.2
+      '@tailwindcss/vite': 4.0.12(vite@6.2.1(jiti@2.4.2)(lightningcss@1.29.1)(yaml@2.7.0))
+      astro: 5.4.2(jiti@2.4.2)(lightningcss@1.29.1)(rollup@4.34.7)(typescript@5.8.2)(yaml@2.7.0)
+      lodash.kebabcase: 4.1.1
+      remark-collapse: 0.1.2
+      remark-toc: 9.0.0
+      satori: 0.12.1
+      sharp: 0.33.5
+      tailwindcss: 4.0.12
+    transitivePeerDependencies:
+      - '@azure/app-configuration'
+      - '@azure/cosmos'
+      - '@azure/data-tables'
+      - '@azure/identity'
+      - '@azure/keyvault-secrets'
+      - '@azure/storage-blob'
+      - '@capacitor/preferences'
+      - '@deno/kv'
+      - '@netlify/blobs'
+      - '@planetscale/database'
+      - '@types/node'
+      - '@upstash/redis'
+      - '@vercel/blob'
+      - '@vercel/kv'
+      - aws4fetch
+      - db0
+      - idb-keyval
+      - ioredis
+      - jiti
+      - less
+      - lightningcss
+      - rollup
+      - sass
+      - sass-embedded
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+      - tsx
+      - typescript
+      - uploadthing
+      - vite
+      - yaml
 
   astro@5.4.2(jiti@2.4.2)(lightningcss@1.29.1)(rollup@4.34.7)(typescript@5.8.2)(yaml@2.7.0):
     dependencies:
