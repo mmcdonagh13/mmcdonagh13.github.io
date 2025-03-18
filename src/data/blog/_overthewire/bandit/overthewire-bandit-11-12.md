@@ -95,4 +95,4 @@ The password is 5Te8Y4##########################
 
 Or we can one of many online tools like [CyberChef](https://gchq.github.io/CyberChef/) that have graphical interfaces to solve the ROT13 ciphertext.
 
-![Image of Cyber Chef using ROT13 recipe](../../assets/images/overthewire/bandit/CyberChef%20-%20ROT13.png)
+![Image of Cyber Chef using ROT13 recipe](@/assets/images/overthewire/bandit/CyberChef%20-%20ROT13.png)
