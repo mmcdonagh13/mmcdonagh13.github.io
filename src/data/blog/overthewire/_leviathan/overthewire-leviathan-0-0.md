@@ -2,7 +2,7 @@
 title: OverTheWire Leviathan Level 0
 author: Michael McDonagh
 pubDatetime: 2025-03-02T11:00:00Z
-slug: overthewire-leviathan-0
+slug: leviathan-0
 featured: false
 draft: false
 tags:

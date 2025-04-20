@@ -2,7 +2,7 @@
 title: OverTheWire Leviathan Level 4 -> 5
 author: Michael McDonagh
 pubDatetime: 2025-03-02T12:45:00Z
-slug: overthewire-leviathan-5
+slug: leviathan-5
 featured: false
 draft: false
 tags:
@@ -23,7 +23,7 @@ There is no information for this level, intentionally.
 
 Solution for the Overthewire.org [Leviathan level 5](https://overthewire.org/wargames/leviathan/leviathan5.html)
 
-Login to the server using the password obtained from the previous level [Leviathan level 4](/posts/overthewire-leviathan-4).  
+Login to the server using the password obtained from the previous level [Leviathan level 4](/posts/overthewire/leviathan-4).  
 
 username: `leviathan5`  
 
