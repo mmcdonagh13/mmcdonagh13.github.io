@@ -2,7 +2,8 @@
 title: TryHackMe - Git Happens
 author: Michael McDonagh
 pubDatetime: 2025-02-22T23:20:19Z
-slug: tryhackme-git-happens
+# slug: tryhackme-git-happens
+slug: git-happens
 featured: false
 draft: false
 tags:
@@ -13,6 +14,8 @@ tags:
 ogImage: ""
 description: Boss wanted me to create a prototype, so here it is! We even used something called "version control" that made deploying this really easy!.
 ---
+
+![Git Happens room icon](@/assets/images/tryhackme/git_happens/room_icon.png)
 
 ## Description
 
