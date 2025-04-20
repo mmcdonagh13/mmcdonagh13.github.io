@@ -1,8 +1,8 @@
 ---
-title: OverTheWire Krypton Level 01 -> 02
+title: OverTheWire Krypton Level 1 -> 2
 author: Michael McDonagh
 pubDatetime: 2025-03-02T10:55:00Z
-slug: overthewire-krypton-2
+slug: krypton-2
 featured: false
 draft: false
 tags:
