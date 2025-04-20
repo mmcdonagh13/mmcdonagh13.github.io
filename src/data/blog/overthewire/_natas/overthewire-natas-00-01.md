@@ -2,7 +2,7 @@
 title: OverTheWire Natas Level 0 -> 1
 author: Michael McDonagh
 pubDatetime: 2025-03-02T15:30:00Z
-slug: overthewire-natas-1
+slug: natas-1
 featured: false
 draft: false
 tags:
@@ -26,13 +26,13 @@ Visit the url `http://natas1.natas.labs.overthewire.org` in the browser and we g
 
 Use the username `natas1` and the password obtained from the previous challenge.
 
-![](@/assets/images/overthewire/natas/natas01_home_page.png)
+![Natas 1 Home Page](@/assets/images/overthewire/natas/natas01_home_page.png)
 
-There is a message on the site stating that right clicking has been disabled. 
+There is a message on the site stating that right clicking has been disabled.  
 
 If we do try to right click the webpage we get an error message.
 
-![](@/assets/images/overthewire/natas/natas01_rightClick.png)
+![Natas 1 right click error](@/assets/images/overthewire/natas/natas01_rightClick.png)
 
 So we need to use an alternative method to view the page source.
 

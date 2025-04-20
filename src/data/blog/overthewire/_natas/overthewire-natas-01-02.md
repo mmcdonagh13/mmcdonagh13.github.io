@@ -2,7 +2,7 @@
 title: OverTheWire Natas Level 1 -> 2
 author: Michael McDonagh
 pubDatetime: 2025-03-02T16:30:00Z
-slug: overthewire-natas-2
+slug: natas-2
 featured: false
 draft: false
 tags:
@@ -28,7 +28,7 @@ Use the username `natas2` and the password obtained from the previous challenge.
 
 The home page has a message stating nothing on the page.
 
-![](@/assets/images/overthewire/natas/natas02_home_page.png)
+![Natas 2 Home Page](@/assets/images/overthewire/natas/natas02_home_page.png)
 
 Checking the source code with `Ctrl+U` we find an image tag for a file `files/pixel.png`
 
@@ -55,8 +55,8 @@ There is nothing on this page
 
 When we visit the `files` directory we find more items to investigate.
 
-![](@/assets/images/overthewire/natas/natas02_files_directory.png)
+![index of files](@/assets/images/overthewire/natas/natas02_files_directory.png)
 
 The password for natas3 is in the `users.txt` file.
 
-![](@/assets/images/overthewire/natas/natas02_users_txt.png)
+![file users.txt](@/assets/images/overthewire/natas/natas02_users_txt.png)

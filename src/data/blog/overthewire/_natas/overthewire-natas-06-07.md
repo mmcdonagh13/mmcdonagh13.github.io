@@ -2,7 +2,7 @@
 title: OverTheWire Natas Level 6 -> 7
 author: Michael McDonagh
 pubDatetime: 2025-03-03T21:30:00Z
-slug: overthewire-natas-7
+slug: natas-7
 featured: false
 draft: false
 tags:

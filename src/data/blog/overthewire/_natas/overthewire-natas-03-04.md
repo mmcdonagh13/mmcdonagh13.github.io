@@ -2,7 +2,7 @@
 title: OverTheWire Natas Level 3 -> 4
 author: Michael McDonagh
 pubDatetime: 2025-03-02T20:30:00Z
-slug: overthewire-natas-4
+slug: natas-4
 featured: false
 draft: false
 tags:

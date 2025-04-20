@@ -2,7 +2,7 @@
 title: OverTheWire Natas Level 0
 author: Michael McDonagh
 pubDatetime: 2025-03-02T15:20:00Z
-slug: overthewire-natas-0
+slug: natas-0
 featured: false
 draft: false
 tags:
@@ -29,7 +29,7 @@ Visit the url `http://natas0.natas.labs.overthewire.org` in the browser and we g
 
 Use the username `natas0` and password `natas0` to login and begin the challenge.
 
-![home page](@/assets/images/overthewire/natas/natas00_home_page.png)
+![index page](@/assets/images/overthewire/natas/natas00_home_page.png)
 
 Since there is nothing to see on the site the next place to look is in the source code.
 
